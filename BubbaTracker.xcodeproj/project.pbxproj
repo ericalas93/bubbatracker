@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81C0089027E7E54E009E26CE /* BubbaTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0088F27E7E54E009E26CE /* BubbaTrackerApp.swift */; };
+		81C0089227E7E54E009E26CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0089127E7E54E009E26CE /* ContentView.swift */; };
+		81C0089427E7E552009E26CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0089327E7E552009E26CE /* Assets.xcassets */; };
+		81C0089727E7E552009E26CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C0089627E7E552009E26CE /* Preview Assets.xcassets */; };
+		81C0089F27E7E69B009E26CE /* ObservableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C0089E27E7E69B009E26CE /* ObservableState.swift */; };
+		81C008A127E7E6BC009E26CE /* ReSwift-select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008A027E7E6BC009E26CE /* ReSwift-select.swift */; };
+		81C008A427E7E723009E26CE /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008A327E7E723009E26CE /* Store.swift */; };
+		81C008A727E7E74E009E26CE /* BubbaTracker.reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008A627E7E74E009E26CE /* BubbaTracker.reducer.swift */; };
+		81C008A927E7E757009E26CE /* BubbaTracker.state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008A827E7E757009E26CE /* BubbaTracker.state.swift */; };
+		81C008AB27E7E762009E26CE /* BubbaTracker.actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008AA27E7E762009E26CE /* BubbaTracker.actions.swift */; };
+		81C008AD27E7E76E009E26CE /* BubbaTracker.selectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008AC27E7E76D009E26CE /* BubbaTracker.selectors.swift */; };
+		81C008AF27E7E8FB009E26CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C008AE27E7E8FB009E26CE /* AppDelegate.swift */; };
+		F373ADF65F3E5591ABDBDD65 /* Pods_BubbaTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C834ACC935122B25092CED26 /* Pods_BubbaTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B3233A447F2AFB257A36621 /* Pods-BubbaTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbaTracker.release.xcconfig"; path = "Target Support Files/Pods-BubbaTracker/Pods-BubbaTracker.release.xcconfig"; sourceTree = "<group>"; };
+		81C0088C27E7E54E009E26CE /* BubbaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C0088F27E7E54E009E26CE /* BubbaTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbaTrackerApp.swift; sourceTree = "<group>"; };
+		81C0089127E7E54E009E26CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81C0089327E7E552009E26CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C0089627E7E552009E26CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81C0089E27E7E69B009E26CE /* ObservableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableState.swift; sourceTree = "<group>"; };
+		81C008A027E7E6BC009E26CE /* ReSwift-select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReSwift-select.swift"; sourceTree = "<group>"; };
+		81C008A327E7E723009E26CE /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		81C008A627E7E74E009E26CE /* BubbaTracker.reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbaTracker.reducer.swift; sourceTree = "<group>"; };
+		81C008A827E7E757009E26CE /* BubbaTracker.state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbaTracker.state.swift; sourceTree = "<group>"; };
+		81C008AA27E7E762009E26CE /* BubbaTracker.actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbaTracker.actions.swift; sourceTree = "<group>"; };
+		81C008AC27E7E76D009E26CE /* BubbaTracker.selectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbaTracker.selectors.swift; sourceTree = "<group>"; };
+		81C008AE27E7E8FB009E26CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7577D54751936D2150BB559 /* Pods-BubbaTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbaTracker.debug.xcconfig"; path = "Target Support Files/Pods-BubbaTracker/Pods-BubbaTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		C834ACC935122B25092CED26 /* Pods_BubbaTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbaTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C0088927E7E54E009E26CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373ADF65F3E5591ABDBDD65 /* Pods_BubbaTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C0088327E7E54E009E26CE = {
+			isa = PBXGroup;
+			children = (
+				81C0088E27E7E54E009E26CE /* BubbaTracker */,
+				81C0088D27E7E54E009E26CE /* Products */,
+				A1D6FB5FF9DFDA08E7B0EB20 /* Pods */,
+				E799C75646C6B274623FFD2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81C0088D27E7E54E009E26CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C0088C27E7E54E009E26CE /* BubbaTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C0088E27E7E54E009E26CE /* BubbaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				81C008A227E7E718009E26CE /* modules */,
+				81C0089D27E7E680009E26CE /* utils */,
+				81C0088F27E7E54E009E26CE /* BubbaTrackerApp.swift */,
+				81C0089127E7E54E009E26CE /* ContentView.swift */,
+				81C0089327E7E552009E26CE /* Assets.xcassets */,
+				81C0089527E7E552009E26CE /* Preview Content */,
+				81C008AE27E7E8FB009E26CE /* AppDelegate.swift */,
+			);
+			path = BubbaTracker;
+			sourceTree = "<group>";
+		};
+		81C0089527E7E552009E26CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81C0089627E7E552009E26CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C0089D27E7E680009E26CE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				81C0089E27E7E69B009E26CE /* ObservableState.swift */,
+				81C008A027E7E6BC009E26CE /* ReSwift-select.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		81C008A227E7E718009E26CE /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				81C008A527E7E73A009E26CE /* BubbaTracker */,
+				81C008A327E7E723009E26CE /* Store.swift */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		81C008A527E7E73A009E26CE /* BubbaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				81C008A627E7E74E009E26CE /* BubbaTracker.reducer.swift */,
+				81C008A827E7E757009E26CE /* BubbaTracker.state.swift */,
+				81C008AA27E7E762009E26CE /* BubbaTracker.actions.swift */,
+				81C008AC27E7E76D009E26CE /* BubbaTracker.selectors.swift */,
+			);
+			path = BubbaTracker;
+			sourceTree = "<group>";
+		};
+		A1D6FB5FF9DFDA08E7B0EB20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7577D54751936D2150BB559 /* Pods-BubbaTracker.debug.xcconfig */,
+				4B3233A447F2AFB257A36621 /* Pods-BubbaTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E799C75646C6B274623FFD2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C834ACC935122B25092CED26 /* Pods_BubbaTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C0088B27E7E54E009E26CE /* BubbaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C0089A27E7E552009E26CE /* Build configuration list for PBXNativeTarget "BubbaTracker" */;
+			buildPhases = (
+				0AD230B630A30A9640B8CC41 /* [CP] Check Pods Manifest.lock */,
+				81C0088827E7E54E009E26CE /* Sources */,
+				81C0088927E7E54E009E26CE /* Frameworks */,
+				81C0088A27E7E54E009E26CE /* Resources */,
+				2B5871CB23C9A0B47826DAC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbaTracker;
+			productName = BubbaTracker;
+			productReference = 81C0088C27E7E54E009E26CE /* BubbaTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C0088427E7E54E009E26CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					81C0088B27E7E54E009E26CE = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 81C0088727E7E54E009E26CE /* Build configuration list for PBXProject "BubbaTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C0088327E7E54E009E26CE;
+			productRefGroup = 81C0088D27E7E54E009E26CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C0088B27E7E54E009E26CE /* BubbaTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C0088A27E7E54E009E26CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C0089727E7E552009E26CE /* Preview Assets.xcassets in Resources */,
+				81C0089427E7E552009E26CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD230B630A30A9640B8CC41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BubbaTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5871CB23C9A0B47826DAC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BubbaTracker/Pods-BubbaTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BubbaTracker/Pods-BubbaTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BubbaTracker/Pods-BubbaTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C0088827E7E54E009E26CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C008A927E7E757009E26CE /* BubbaTracker.state.swift in Sources */,
+				81C008A427E7E723009E26CE /* Store.swift in Sources */,
+				81C008A127E7E6BC009E26CE /* ReSwift-select.swift in Sources */,
+				81C008AD27E7E76E009E26CE /* BubbaTracker.selectors.swift in Sources */,
+				81C0089227E7E54E009E26CE /* ContentView.swift in Sources */,
+				81C008AB27E7E762009E26CE /* BubbaTracker.actions.swift in Sources */,
+				81C0089F27E7E69B009E26CE /* ObservableState.swift in Sources */,
+				81C0089027E7E54E009E26CE /* BubbaTrackerApp.swift in Sources */,
+				81C008AF27E7E8FB009E26CE /* AppDelegate.swift in Sources */,
+				81C008A727E7E74E009E26CE /* BubbaTracker.reducer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81C0089827E7E552009E26CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C0089927E7E552009E26CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C0089B27E7E552009E26CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7577D54751936D2150BB559 /* Pods-BubbaTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BubbaTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FQZEM45HL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericalas.BubbaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C0089C27E7E552009E26CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3233A447F2AFB257A36621 /* Pods-BubbaTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BubbaTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FQZEM45HL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericalas.BubbaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C0088727E7E54E009E26CE /* Build configuration list for PBXProject "BubbaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C0089827E7E552009E26CE /* Debug */,
+				81C0089927E7E552009E26CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C0089A27E7E552009E26CE /* Build configuration list for PBXNativeTarget "BubbaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C0089B27E7E552009E26CE /* Debug */,
+				81C0089C27E7E552009E26CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C0088427E7E54E009E26CE /* Project object */;
+}
